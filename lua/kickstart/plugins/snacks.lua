@@ -68,7 +68,7 @@ return {
         { "<leader>gx", function() Snacks.gitbrowse() end,               desc = "Git Browse" },
         -- [[ Picker ]]
         -- Search
-        { "<leader>sf", function() Snacks.picker.files() end,            desc = "Files" },
+        { "<leader>.f", function() Snacks.picker.files() end,            desc = "Files" },
         {
             "<leader><space>",
             function()
@@ -86,7 +86,7 @@ return {
             end,
             desc = "Find Buffers"
         },
-        { "<leader>sD",  function() Snacks.picker.diagnostics() end,   desc = "Workspace Diagnostics" },
+        { "<leader>sD", function() Snacks.picker.diagnostics() end,   desc = "Workspace Diagnostics" },
         {
             "<leader>sd",
             function() Snacks.picker.diagnostics_buffer({ layout = 'ivy' }) end,
@@ -115,35 +115,35 @@ return {
             end,
             desc = 'Pictures'
         },
-        { "<leader>sP",  function() Snacks.picker.projects() end,      desc = "Projects" },
+        { "<leader>sP", function() Snacks.picker.projects() end,      desc = "Projects" },
         ---@diagnostic disable-next-line: undefined-field
-        { "<leader>.t",  function() Snacks.picker.todo_comments() end, desc = "Todo Comments" },
-        { "<leader>.r",  function() Snacks.picker.resume() end,        desc = "Resume" },
-        { "<leader>..",  function() Snacks.picker.recent() end,        desc = "Recent Files" },
+        { "<leader>.t", function() Snacks.picker.todo_comments() end, desc = "Todo Comments" },
+        { "<leader>.r", function() Snacks.picker.resume() end,        desc = "Resume" },
+        { "<leader>..", function() Snacks.picker.recent() end,        desc = "Recent Files" },
         -- Grep
-        { "<leader>/",   function() Snacks.picker.lines() end,         desc = "Grep Lines" },
-        { "<leader>.G",  function() Snacks.picker.grep_buffers() end,  desc = "Grep Open Buffers" },
-        { "<leader>.g",  function() Snacks.picker.grep() end,          desc = "Grep" },
-        { "<leader>.w",  function() Snacks.picker.grep_word() end,     desc = "Grep Word" },
-        { "<leader>g",   function() Snacks.picker.grep_word() end,     desc = "Grep Search Visual",   mode = "x" },
+        { "<leader>/",  function() Snacks.picker.lines() end,         desc = "Grep Lines" },
+        { "<leader>.G", function() Snacks.picker.grep_buffers() end,  desc = "Grep Open Buffers" },
+        { "<leader>.g", function() Snacks.picker.grep() end,          desc = "Grep" },
+        { "<leader>.w", function() Snacks.picker.grep_word() end,     desc = "Grep Word" },
+        { "<leader>g",  function() Snacks.picker.grep_word() end,     desc = "Grep Search Visual",   mode = "x" },
         -- Git
         -- - `<Tab>`: stages or unstages the currently selected file
         -- - `<cr>`: opens the currently selected file
-        { "<leader>gf",  function() Snacks.picker.git_files() end,     desc = "Git Files" },
-        { "<leader>gs",  function() Snacks.picker.git_status() end,    desc = "Git Status" },
+        { "<leader>gf", function() Snacks.picker.git_files() end,     desc = "Git Files" },
+        { "<leader>gs", function() Snacks.picker.git_status() end,    desc = "Git Status" },
         -- LazyGit
-        { "<leader>gh",  function() Snacks.lazygit.log_file() end,     desc = "Git File History" },
-        { "<leader>gg",  function() Snacks.lazygit.open() end,         desc = "Lazygit" },
-        { "<leader>gl",  function() Snacks.lazygit.log() end,          desc = "Git Log" },
+        { "<leader>gh", function() Snacks.lazygit.log_file() end,     desc = "Git File History" },
+        { "<leader>gg", function() Snacks.lazygit.open() end,         desc = "Lazygit" },
+        { "<leader>gl", function() Snacks.lazygit.log() end,          desc = "Git Log" },
         -- Neovim
-        { "<leader>.nh", function() Snacks.picker.help() end,          desc = "Help" },
+        { "<leader>.h", function() Snacks.picker.help() end,          desc = "Help" },
         {
-            "<leader>.nk",
+            "<leader>.k",
             function() Snacks.picker.keymaps({ layout = 'vertical' }) end,
             desc = "Keymaps"
         },
         {
-            "<leader>.nf",
+            "<leader>sf",
             function()
                 Snacks.picker.files({
                     cwd = vim.fn.stdpath("config") --[[@as string]]
