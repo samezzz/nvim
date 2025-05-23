@@ -1,11 +1,4 @@
 return { -- Collection of various small independent plugins/modules
-  'kana/vim-textobj-user',
-  'vim-scripts/ReplaceWithRegister',
-  'wellle/targets.vim',
-  'junegunn/vim-easy-align',
-  'adelarsq/vim-matchit',
-  'farmergreg/vim-lastplace',
-  'xiyaowong/transparent.nvim',
     'echasnovski/mini.nvim',
     version = false,
     config = function()

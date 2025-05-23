@@ -1,4 +1,11 @@
 return {
+    'kana/vim-textobj-user',
+    'vim-scripts/ReplaceWithRegister',
+    'wellle/targets.vim',
+    'junegunn/vim-easy-align',
+    'adelarsq/vim-matchit',
+    'farmergreg/vim-lastplace',
+    'xiyaowong/transparent.nvim',
     { 'ThePrimeagen/vim-be-good',                    cmd = 'VimBeGood' },
     'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
     'tpope/vim-repeat', -- Make most of the plugins repeatable with .
