@@ -99,7 +99,7 @@ return {
         { "<leader>SS", function() Snacks.scratch.select() end,          desc = "Select Scratch Buffer" },
         { "<leader>un", function() Snacks.notifier.show_history() end,   desc = "Notification History" },
         { "<leader>uN", function() Snacks.notifier.hide() end,           desc = "Dismiss All Notifications" },
-        { "<A-c>",      function() Snacks.bufdelete() end,               desc = "Delete Buffer" },
+        { "<leader>,k", function() Snacks.bufdelete() end,               desc = "Delete Buffer" },
         { "<leader>rf", function() Snacks.rename.rename_file() end,      desc = "Rename File" },
         { "<c-/>",      function() Snacks.terminal() end,                desc = "Toggle Terminal" },
         { "<c-_>",      function() Snacks.terminal() end,                desc = "which_key_ignore" },

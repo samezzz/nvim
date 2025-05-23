@@ -213,7 +213,8 @@ return { -- LSP Configuration & Plugins
 			marksman = {},
 			taplo = {},
 			templ = {},
-			mdx_analyzer = {}
+			mdx_analyzer = {},
+			dcm = {},
 		}
 
 		---@param command string?

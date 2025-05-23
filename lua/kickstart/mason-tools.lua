@@ -48,6 +48,11 @@ add_tool('dotnet', {
 	'csharpier'
 })
 
+add_tool('dcm', {
+	-- DAP
+	'dart-debug-adapter'
+})
+
 add_tool('go', {
 	-- Formatters
 	'gofumpt',
@@ -96,4 +101,3 @@ add_tool('cpptools', {
 })
 
 return ensure_installed
-
