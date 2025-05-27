@@ -10,8 +10,8 @@ return {
         ['g?'] = 'actions.show_help',
         ['l'] = 'actions.select',
         ['<CR>'] = 'actions.select',
-        ['<space>j'] = 'actions.select_split',
-        ['<space>l'] = 'actions.select_vsplit', -- this is used to navigate left
+        ["<space>l"] = { "actions.select", opts = { vertical = true } },
+        ["<space>j"] = { "actions.select", opts = { horizontal = true } },
         ['L'] = 'actions.preview',
         ['<M-w>'] = 'actions.close',
         ['<M-r>'] = 'actions.refresh',
