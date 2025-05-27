@@ -88,11 +88,6 @@ end, { desc = 'Delete surrounding indentation' })
 Map('', 'ga', '<Plug>(EasyAlign)')
 Map('n', 'grr', '<Plug>ReplaceWithRegisterLine')
 
-Map({ 'n', 'x', 'o' }, 'q', '<Plug>(leap-forward-to)')
-Map({ 'n', 'x', 'o' }, 'Q', '<Plug>(leap-backward-to)')
-Map({ 'x', 'o' }, 'x', '<Plug>(leap-forward-till)')
-Map({ 'x', 'o' }, 'X', '<Plug>(leap-backward-till)')
-
 -- Oil toggle on
 Map('n', '<M-e>', vim.cmd.Oil)
 

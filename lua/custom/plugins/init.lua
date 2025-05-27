@@ -6,7 +6,6 @@ return {
     'adelarsq/vim-matchit',
     'farmergreg/vim-lastplace',
     'xiyaowong/transparent.nvim',
-    'ggandor/leap.nvim',
     { 'ThePrimeagen/vim-be-good',                    cmd = 'VimBeGood' },
     'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
     'tpope/vim-repeat', -- Make most of the plugins repeatable with .
