@@ -15,7 +15,7 @@ vim.keymap.del('n', 'grn')
 vim.keymap.del('n', 'grr')
 vim.keymap.del('n', 'gO')
 
-map('n', '.', '<Nop>', { noremap = true })
+-- map('n', '.', '<Nop>', { noremap = true })
 
 -- Remap for dealing with word wrap
 map('n', 'k', "v:count == 0 ? 'gk' : 'k'", { expr = true, silent = true })
@@ -37,8 +37,8 @@ map('n', '<M-o>', 'o<Esc>', { desc = 'New Line Down' })
 map('n', '<M-O>', 'O<Esc>', { desc = 'New Line Up' })
 
 -- Swap r and ctrl+r
-map('n', '<C-r>', 'r', { silent = true }) -- replace a single character
-map('n', 'r', '<C-r>', { silent = true }) -- redo
+-- map('n', '<C-r>', 'r', { silent = true }) -- replace a single character
+-- map('n', 'r', '<C-r>', { silent = true }) -- redo
 
 -- Append line from bottom line while keeping cursor position
 map("n", "J", "mzJ`z")
