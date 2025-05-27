@@ -97,4 +97,4 @@ Map({ 'x', 'o' }, 'X', '<Plug>(leap-backward-till)')
 Map('n', '<M-e>', vim.cmd.Oil)
 
 -- ZenMode toggle on
-Map('n', '<M-m>', vim.cmd.ZenMode)
+Map('n', '<leader>.z', vim.cmd.ZenMode)

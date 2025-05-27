@@ -18,7 +18,7 @@ return {
         { '<leader>.7',  '<cmd>BufferLineGoToBuffer 7<cr>',  desc = 'Go to Buffer 7' },
         { '<leader>.8',  '<cmd>BufferLineGoToBuffer 8<cr>',  desc = 'Go to Buffer 8' },
         { '<leader>.9',  '<cmd>BufferLineGoToBuffer 9<cr>',  desc = 'Go to Buffer 9' },
-        { '<A-0>',       '<cmd>BufferLineGoToBuffer -1<cr>', desc = 'Go to Last Buffer' },
+        { '<leader>b0>', '<cmd>BufferLineGoToBuffer -1<cr>', desc = 'Go to Last Buffer' },
     },
     opts = {
         ---@module 'snacks'
