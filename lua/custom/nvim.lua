@@ -18,7 +18,7 @@ local function save_vim()
   Cmd 'w'
 end
 Map('', 'U', save_vim)
-Map('', '<leader>u', TemplFormat)
+-- Map('', '<leader>u', TemplFormat)
 Map('', '<Space>', save_vim)
 
 local move_to_bottom_screen__center_screen = 'Lzz'

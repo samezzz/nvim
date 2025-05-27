@@ -177,6 +177,7 @@ return {
         { "<leader>gl", function() Snacks.lazygit.log() end,          desc = "Git Log" },
         -- Neovim
         { "<leader>.h", function() Snacks.picker.help() end,          desc = "Help" },
+        { "<leader>,r", function() Snacks.picker.registers() end,     desc = "Register" },
         {
             "<leader>.k",
             function() Snacks.picker.keymaps({ layout = 'vertical' }) end,
