@@ -12,7 +12,7 @@ return {
         ['<CR>'] = 'actions.select',
         ["<space>l"] = { "actions.select", opts = { vertical = true } },
         ["<space>j"] = { "actions.select", opts = { horizontal = true } },
-        ['L'] = 'actions.preview',
+        ['L'] = 'oilactions.preview',
         ['<M-w>'] = 'actions.close',
         ['<M-r>'] = 'actions.refresh',
         ['h'] = 'actions.parent',

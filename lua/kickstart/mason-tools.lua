@@ -53,6 +53,14 @@ add_tool('dcm', {
 	'dart-debug-adapter'
 })
 
+add_tool('ast-grep', {
+	'ast-grep'
+})
+
+add_tool('trivy', {
+	'trivy'
+})
+
 add_tool('go', {
 	-- Formatters
 	'gofumpt',
