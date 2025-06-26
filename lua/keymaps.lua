@@ -69,6 +69,7 @@ map('n', '<leader>w', function()
 	-- Buffer has a name, save normally
 	vim.cmd.write()
 end, { desc = 'Save Buffer' })
+
 map('n', '<leader>x', '<cmd>wqa<CR>', { desc = 'Save and Exit' })
 map('n', '<leader>q', '<cmd>q<CR>', { desc = 'Quit Window' })
 
